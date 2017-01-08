@@ -13,11 +13,10 @@ try:
         latitude float(10, 6),
         logitude float(10, 6),
         data datetime,
-        category varchar(50),
-         description varchar(1000),
+        category varchar(50), description varchar(1000),
          updated_at timestamp,
          primary key (id))'''
-         cursor.execute(sql)
+        cursor.execute(sql)
 
     connection.commit()
 finally:

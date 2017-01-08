@@ -1,1 +1,3 @@
 venv_crime_map/
+cloud_sql_proxy
+.DS_Store

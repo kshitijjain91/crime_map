@@ -8,7 +8,7 @@ try:
     with connection.cursor as cursor:
         sql = "create database if not exists crimemap"
         cursor.execute(sql)
-        sql = '''create table if nor exists crimemap.crimes(
+        sql = '''create table if not exists crimemap.crimes(
         id int not null auto_increment,
         latitude float(10, 6),
         logitude float(10, 6),

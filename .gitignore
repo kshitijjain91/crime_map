@@ -1,3 +1,6 @@
 venv_crime_map/
+venv3/
+venv3
 cloud_sql_proxy
 .DS_Store
+dbconfig.py*.pyc

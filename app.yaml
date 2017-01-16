@@ -6,4 +6,4 @@ runtime_config:
   python_version: 3
 
 beta_settings:
-      cloud_sql_instances: "crime-map-153618:us-central1:crime-map-db"
+      cloud_sql_instances: "crime-map-153618:us-central1:crime-map-instance-2"

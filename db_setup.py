@@ -2,8 +2,8 @@ import pymysql
 import dbconfig
 
 connection = pymysql.connect(host = 'localhost',
-                              user = dbconfig.db_user,
-                              passwd = dbconfig.db_password)
+                              user = dbconfig.CLOUDSQL_USER,
+                              passwd = dbconfig.CLOUDSQL_PASSWORD)
 try:
     with connection.cursor() as cursor:
         sql = "create database if not exists crimemap"

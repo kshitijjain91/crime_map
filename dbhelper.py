@@ -5,8 +5,8 @@ class DBHelper():
 
     def connect(self, database = 'crimemap'):
         return pymysql.connect(host = 'localhost',
-            user = dbconfig.db_user,
-            passwd = dbconfig.db_password,
+            user = dbconfig.CLOUDSQL_USER,
+            passwd = dbconfig.CLOUDSQL_PASSWORD,
             db = database)
 
     def get_all_inputs(self):
